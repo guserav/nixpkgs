@@ -4803,6 +4803,8 @@ in
 
   librest = callPackage ../development/libraries/librest { };
 
+  libverbs = callPackage ../development/libraries/libverbs { };
+
   inherit (callPackages ../development/libraries/libwebsockets { })
     libwebsockets_3_1
     libwebsockets_3_2
